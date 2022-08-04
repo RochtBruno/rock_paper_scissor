@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.player-options img,
+.enemy-options img {
+  width: 180px;
+  height: 180px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.player-options img:active,
+.enemy-options img:active {
+  transform: scale(1.2);
+}
+.results {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 17px;
+}
+
+.player-options,
+.enemy-options {
+  display: flex;
+  justify-content: space-between;
+}
+.enemy-options {
+  margin-top: 70px;
+}
